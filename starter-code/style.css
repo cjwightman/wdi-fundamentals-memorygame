@@ -1,3 +1,14 @@
+
+.card {
+	height: 200px;
+	width: 150px;
+	border: 1px solid black;
+	background-color: yellow;
+	border-radius: 10px;
+	float: left;
+	margin: 8%;
+	}
+
 h1 {
 	color: rgb(2,132,130);
 }
@@ -8,7 +19,6 @@ h1 {
 
  nav {
  	background-color: #808080;
-
  }
 
  a {
@@ -27,36 +37,31 @@ h1 {
  	text-align: center;
  }
 
-footer {
-	background-color: #808080;
+.board {
+	display: inline-block;
+	height: 80%;
+	width: 50%;
 }
 
- .clearfix:after {
+.name {
+	color: #ff0000;
+	text-align: center;
+}
+
+.clearfix:after {
         visibility: hidden;
         display: block;
         content: " ";
         clear: both;
         height: 0;
         font-size: 0;
-      }
-
-.board {
-	display: inline-block;
-	height: 50%;
-	width: 50%;
 }
 
-.card {
-	height: 200px;
-	width: 150px;
-	border: 1px solid black;
-	background: yellow;
-	border-radius: 10px;
-	float: left;
-	margin: 8%;
-	}
+footer {
+	background-color: #808080;
+}
 
-.name {
-	color: #ff0000;
-	text-align: center;
+img {
+	height: 200px;
+    width: 150px;
 }
